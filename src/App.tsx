@@ -11,6 +11,10 @@ export default function App() {
       <Logo />
       <Nave />
 
+      <main>
+        
+      </main>
+
       <Rodape />
     </>
   );

@@ -1,0 +1,12 @@
+.pe{
+    background-color: var( --Bg-Pe);
+    color: var(--Cor-Pe);
+    padding: 2rem;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
