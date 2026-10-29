@@ -1,0 +1,29 @@
+.nave {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--Bg-Nave);
+  color: var(--Cor-Fonte);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 1rem 1rem;
+
+  position: sticky;
+  top: 0;
+}
+
+.links {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.links a {
+  color: var(--Cor-Fonte);
+  text-decoration: none;
+  background-color: var(--Bg-Link);
+  border: 2px solid;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,22 @@
+.logo {
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  background-color: var(--Bg-Logo);
+  color: var(--Cor-Fonte);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.imagem img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.texto {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
