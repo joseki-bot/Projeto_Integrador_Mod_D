@@ -1,8 +1,13 @@
-import styles from "./styles.module.css";
+import { Details } from "../../componentes/Body/Details";
+/*import styles from "./styles.module.css";*/
 
 export function Inicio() {
   return (
-    <div className={styles.In}>
+    <div className="a">
+
+      <Details titulo="Bolos">
+        children={undefined}
+      </Details> 
 
     </div>
   );

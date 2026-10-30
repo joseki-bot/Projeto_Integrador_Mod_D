@@ -4,6 +4,7 @@ import "./padrao/theme.css";
 import { Logo } from "./componentes/Heading/Logo";
 import { Nave } from "./componentes/Heading/Nave";
 import { Rodape } from "./componentes/Footer/Rodape";
+import { Inicio } from "./paginas/Inicio";
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <Nave />
 
       <main>
-        
+        <Inicio />
       </main>
 
       <Rodape />

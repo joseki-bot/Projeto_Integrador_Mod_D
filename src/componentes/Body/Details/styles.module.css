@@ -1,0 +1,41 @@
+.Deta{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.D2{
+    background-color: var(--Cor-Roxo);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px var(--Cor-Sombra);
+
+    overflow: hidden;
+}
+
+.D2 details{
+    width: 100%;
+}
+
+.su{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+    color: var( --Cor-Fonte);
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+
+.Conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0.6rem;
+    border-top: solid var(--Cor-Sombra);
+
+    background-color: var(--Bg-Link);
+    color: var(--Cor-Fonte);
+}

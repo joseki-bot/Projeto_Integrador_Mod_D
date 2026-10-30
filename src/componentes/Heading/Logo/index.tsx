@@ -4,7 +4,7 @@ export function Logo() {
   return (
     <div className={styles.logo}>
       <div className={styles.imagem}>
-        <img src="./logo/Logo.png" alt="" />
+        <img src="./logo/Logo_B.png" alt="" />
       </div>
 
       <div className={styles.texto}>
