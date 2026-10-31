@@ -1,0 +1,13 @@
+:root
+    /*[data-theme="dark"]*/ {
+  --Bg-Logo: #09051a;
+  --Bg-Nave: #150f34;
+  --Bg-Link: #142e49;
+  --Bg-Pe: #05040e;
+  --Cor-Fonte: white;
+  --Cor-Pe: gray;
+
+  --Cor-Roxo: #632091;
+  --Cor-Ciano: #10C1B6;
+  --Cor-Sombra: black;
+}
