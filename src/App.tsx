@@ -4,19 +4,21 @@ import "./padrao/theme.css";
 import { Logo } from "./componentes/Heading/Logo";
 import { Nave } from "./componentes/Heading/Nave";
 import { Rodape } from "./componentes/Footer/Rodape";
-import { Inicio } from "./paginas/Inicio";
+import NotFound from "./paginas/NotFound";
+
 
 export default function App() {
   return (
     <>
       <Logo />
-      <Nave />
+      <Nave /> 
 
       <main>
-        <Inicio />
+        <NotFound />
       </main>
 
       <Rodape />
     </>
   );
 }
+

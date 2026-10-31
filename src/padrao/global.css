@@ -5,9 +5,11 @@
 }
 
 body {
+  overflow-x: clip;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: var(--Bg-Fundo);
 }
 
 /* === ESTRUTURA PRINCIPAL DO REACT === */

@@ -1,10 +1,12 @@
 :root
     /*[data-theme="dark"]*/ {
+  --Bg-Fundo: #40035c;
   --Bg-Logo: #09051a;
   --Bg-Nave: #150f34;
   --Bg-Link: #142e49;
   --Bg-Pe: #05040e;
   --Cor-Fonte: white;
+  --Cor-Fonte-2: black;
   --Cor-Pe: gray;
 
   --Cor-Roxo: #632091;

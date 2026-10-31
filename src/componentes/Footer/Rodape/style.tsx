@@ -3,6 +3,7 @@ export const style = {
     bg-[var(--Bg-Pe)] 
     text-[var(--Cor-Pe)] 
     p-8
+    mt-15
   `,
   
   texto: `
