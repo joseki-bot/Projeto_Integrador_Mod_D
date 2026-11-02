@@ -15,7 +15,7 @@ export const style = {
         gap-2
         py-5
         px-3
-        rounded-2xl
+        rounded-3xl
         border-2
         bg-[var(--Bg-Link)]
 
