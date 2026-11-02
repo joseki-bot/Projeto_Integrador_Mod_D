@@ -1,25 +1,29 @@
 export const style = {
     caixa: `
         flex
-        flex-row
         items-center
         justify-center
-    
-        text-[var(--Cor-Fonte)]
-        w-full
         mt-7
+        w-full
+        text-[var(--Cor-Fonte)]
     `,
 
     botao: `
         flex
-        flex-row
-        bg-[var(--Bg-Link)]
-        p-3
-        border-2
+        items-center
+        justify-center
+        gap-2
+        py-5
+        px-3
         rounded-2xl
+        border-2
+        bg-[var(--Bg-Link)]
+
     `,
 
     texto: `
-
+        flex
+        items-center
+        gap-1
     `,
 };
