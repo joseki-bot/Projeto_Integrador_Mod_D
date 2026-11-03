@@ -10,7 +10,7 @@ export default function Templates() {
       <Nave />
 
       <main>
-        <Inicio />
+        <BoloLaranja />
       </main>
 
       <Rodape />
