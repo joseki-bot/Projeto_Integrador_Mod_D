@@ -35,26 +35,32 @@ export default function Laranja() {
     },
 
     {
-        titulo: "Confic",
-        subtitulo: "Calda 1",
-        ingredientes: [
-            "1 xícara de açúcar",
-            "3 xícaras de água",
-        ],
-
-        subtitulo: "Calda 2",
-        ingredientes: [
-            "1 xícara de açúcar",
-            "3 xícaras de água",
-        ],
-
-        subtitulo: "Calda Final",
-        ingredientes: [
-            "2 xícara de açúcar",
-            "5½ xícaras de água",
-            "Essência de Baunilha"
+  titulo: "Confic",
+  ingredientes: [
+    {
+      subtitulo: "Calda 1",
+      ingredientes: [
+        "1 xícara de açúcar",
+        "3 xícaras de água",
       ],
     },
+    {
+      subtitulo: "Calda 2",
+      ingredientes: [
+        "1 xícara de açúcar",
+        "3 xícaras de água",
+      ],
+    },
+    {
+      subtitulo: "Calda Final",
+      ingredientes: [
+        "2 xícaras de açúcar",
+        "5½ xícaras de água",
+        "Essência de Baunilha",
+      ],
+    },
+  ],
+},
 
   ];
 
