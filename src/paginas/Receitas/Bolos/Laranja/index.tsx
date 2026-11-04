@@ -26,6 +26,7 @@ export default function Laranja() {
 
     {
         titulo: "Caldo",
+        largo: true,
         ingredientes: [
             "300 ml de água",
             "2 colheres de sopa de açúcar",
@@ -35,8 +36,9 @@ export default function Laranja() {
     },
 
     {
-  titulo: "Confic",
-  ingredientes: [
+    titulo: "Confic",
+    largo: true,
+    ingredientes: [
     {
       subtitulo: "Calda 1",
       ingredientes: [
@@ -69,4 +71,5 @@ export default function Laranja() {
       <Ingredientes Partes={Partes} />
     </>
   );
+
 }

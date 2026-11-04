@@ -36,15 +36,44 @@ export const style = {
 `,
 
 Ingrediente: `
-    border-2
-    rounded-3xl
-    px-4
-    py-3
-    text-[1.1rem]
+  flex
+  flex-col
+  
+  bg-[var(--Cor-Ciano-2)]
+  
+  border-3
+  rounded-3xl
+  px-4
+  py-3
+  text-[1.1rem]
 `,
 
 IngredienteLargo: `
     col-span-2
+`,
+
+Ti_Ingrediente: `
+  flex
+  w-full
+  items-center
+  justify-center  
+
+  font-bold
+  text-2xl
+`,
+
+Lista: `
+    mt-2
+    list-disc
+    pl-5
+    space-y-2
+    text-1xl
+    leading-5
+`,
+
+subtitulo:`
+  font-bold
+  pt-2
 `,
 
 };
