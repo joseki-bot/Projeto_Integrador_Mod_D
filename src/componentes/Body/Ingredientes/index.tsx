@@ -2,6 +2,7 @@ import { style } from "./style";
 
 type Ingrediente = {
     titulo: string;
+    largo?: boolean;
     ingredientes: (string | Subdivisao)[];
 };
 
@@ -26,18 +27,18 @@ export default function Ingredientes({ Partes }: Props) {
                 <div className={style.AreaIngredientes}>
                     {Partes.map((parte, index) => (
                         <div key={index} className={`${style.Ingrediente} ${
-                            parte.largo ? style.IngredienteLargo : "" }`} >
+                        parte.largo ? style.IngredienteLargo : "" }`} >
 
-                            <h2>{parte.titulo}</h2>
+                            <h2 className={style.Ti_Ingrediente}>{parte.titulo}</h2>
 
-                            <ul>
+                            <ul className={style.Lista}>
                                 {parte.ingredientes.map((ingrediente, i) => (
                                     <li key={i}>
                                         {typeof ingrediente === "string" ? (
                                             ingrediente
                                         ) : (
                                             <>
-                                                <h3>{ingrediente.subtitulo}</h3>
+                                                <h3 className={style.subtitulo}>{ingrediente.subtitulo}</h3>
 
                                                 <ul>
                                                     {ingrediente.ingredientes.map((item, j) => (
