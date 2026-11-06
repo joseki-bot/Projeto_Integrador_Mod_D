@@ -1,75 +1,84 @@
 import Ingredientes from "../../../../componentes/Body/Ingredientes";
+import { ModoPreparo } from "../../../../componentes/Body/ModoPreparo";
 
 export default function Laranja() {
 
   const Partes = [
     {
-        titulo: "Massa",
-        ingredientes: [
-            "1 Laranja (Pera ou Bahia)",
-            "3 Ovos",
-            "1 Xícara de açúcar",
-            "2½ xícaras de farinha de trigo",
-            "1 xícara de óleo",
-            "1 colher de sopa de fermento químico",
-        ],
-    },
-
-    {
-        titulo: "Geleia",
-        ingredientes: [
-            "Suco de 4 laranjas",
-            "2 xícaras de açúcar",
-            "3 colheres de sopa de amido de milho",
-        ],
-    },
-
-    {
-        titulo: "Caldo",
-        largo: true,
-        ingredientes: [
-            "300 ml de água",
-            "2 colheres de sopa de açúcar",
-            "1 pau de canela",
-            "2 anis-estrelados",
-        ],
-    },
-
-    {
-    titulo: "Confic",
-    largo: true,
-    ingredientes: [
-    {
-      subtitulo: "Calda 1",
-      ingredientes: [
-        "1 xícara de açúcar",
-        "3 xícaras de água",
+      titulo: "Massa",
+       ingredientes: [
+          "1 Laranja (Pera ou Bahia)",
+          "3 Ovos",
+          "1 Xícara de açúcar",
+          "2½ xícaras de farinha de trigo",
+          "1 xícara de óleo",
+          "1 colher de sopa de fermento químico",
       ],
     },
-    {
-      subtitulo: "Calda 2",
-      ingredientes: [
-        "1 xícara de açúcar",
-        "3 xícaras de água",
-      ],
-    },
-    {
-      subtitulo: "Calda Final",
-      ingredientes: [
-        "2 xícaras de açúcar",
-        "5½ xícaras de água",
-        "Essência de Baunilha",
-      ],
-    },
-  ],
-},
 
+    {
+      titulo: "Geleia",
+      ingredientes: [
+          "Suco de 4 laranjas",
+          "2 xícaras de açúcar",
+          "3 colheres de sopa de amido de milho",
+      ],
+    },
+
+    {
+      titulo: "Caldo",
+      largo: true,
+      ingredientes: [
+          "300 ml de água",
+          "2 colheres de sopa de açúcar",
+          "1 pau de canela",
+          "2 anis-estrelados",
+      ],
+    },
+
+    {
+      titulo: "Confic",
+      largo: true,
+      ingredientes: [
+      {
+        subtitulo: "Calda 1",
+        ingredientes: [
+          "1 xícara de açúcar",
+          "3 xícaras de água",
+        ],
+      },
+      {
+        subtitulo: "Calda 2",
+        ingredientes: [
+          "1 xícara de açúcar",
+          "3 xícaras de água",
+        ],
+      },
+        {
+        subtitulo: "Calda Final",
+        ingredientes: [
+          "2 xícaras de açúcar",
+          "5½ xícaras de água",
+          "Essência de Baunilha",
+        ],
+      },
+      ],
+    },
+  ];
+
+  const Passos = [
+    "Preaqueça o forno a 180 °C.",
+    "Misture os ovos com o açúcar.",
+    "Acrescente a farinha e misture.",
+    "Adicione o fermento.",
+    "Leve ao forno por 40 minutos."
   ];
 
   return (
     <>
       <Ingredientes Partes={Partes} />
+
+      <ModoPreparo Texto={Passos} />
     </>
   );
-
 }
